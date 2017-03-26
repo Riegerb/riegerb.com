@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Brian Charles Rieger'
 SITENAME = 'Brian Charles Rieger'
 SITEURL = 'http://riegerb.com'
-DESCRIPTION = 'riegerb.com'
+DESCRIPTION = 'Website for Brian Charles Rieger'
 
 PATH = 'content'
 
@@ -17,7 +17,7 @@ DEFAULT_LANG = 'en'
 
 STATIC_PATHS = ['js']
 
-THEME = 'alchemy'
+THEME = 'themes/pelican-alchemy/alchemy'
 
 # Blogroll
 LINKS = ()
@@ -31,6 +31,3 @@ HIDE_AUTHORS = True
 DELETE_OUTPUT_DIRECTORY = True
 
 LOAD_CONTENT_CACHE = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
